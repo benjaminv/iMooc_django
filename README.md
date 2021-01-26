@@ -64,10 +64,20 @@ pip install  django-simple-captcha
 ```python
 python3 manage.py migrate
 ```
+
+#### 执行如下命令，设置管理员账户信息
+`python3 manage.py createsuperuser`
+
+
 #### 启动项目
 ```python
 python3 manage.py runserver 0:8080
 ```
+- Frontend: http://yourip:8080
+- backend: http://yourip:8080/xadmin  
+
+For example `admin|passw0rd123`
+
 
 (访问浏览器localhost:8080端口可以查看)
 
